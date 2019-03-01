@@ -49,6 +49,7 @@ function guessingGame() {
      
 
      // Display wins, losses, guesses  remaining, and letters guessed so far.
+     directionsText.textContent = "";
      winsText.textContent = "Wins: " + wins;
      lossesText.textContent = "Losses: " + losses;
      guessesLeftText.textContent = "Guesses left: " + guessesLeft;
